@@ -6,7 +6,7 @@ REG_TEMPLATE = r'''Windows Registry Editor Version 5.00
 @="Calculate MD5/SHA1"
 
 [HKEY_CLASSES_ROOT\*\shell\calchashes\command]
-@="\"pythonw.exe\" \"-c\" \"exec 'B64SCRIPT_GOES_HERE'.decode('base64')\" \"%1\""
+@="\"C:\\Python27\\pythonw.exe\" \"-c\" \"exec 'B64SCRIPT_GOES_HERE'.decode('base64')\" \"%1\""
 
 '''
 
