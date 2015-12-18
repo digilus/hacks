@@ -1,3 +1,4 @@
+# Under MIT License
 import base64
 
 REG_TEMPLATE = r'''Windows Registry Editor Version 5.00
