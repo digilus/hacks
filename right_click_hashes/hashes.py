@@ -1,3 +1,7 @@
+# Under MIT License
+# win32_unicode_argv snippet by Craig McQueen based on ActiveState:
+# http://stackoverflow.com/questions/846850/read-unicode-characters-from-command-line-arguments-in-python-2-x-on-windows
+# Retrieved 2015-12-19
 import sys
 MB_SETFOREGROUND = 0x10000
 from ctypes import POINTER, byref, cdll, c_int, windll
